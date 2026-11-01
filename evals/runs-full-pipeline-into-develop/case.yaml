@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: runs-full-pipeline-into-develop
+expected_outcome: |
+  A small provided task goes through every stage with separate subagents and is merged into develop.
+context:
+  scaffold_script: place-files.sh

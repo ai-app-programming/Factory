@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: runs-ux-check-for-ui-task
+expected_outcome: |
+  A UI task passes through the UI/UX verify stage with real browser screenshots before merging into develop.
+context:
+  scaffold_script: place-files.sh

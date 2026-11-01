@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: blocks-and-notifies-on-merge-conflict
+expected_outcome: |
+  When develop has moved on with a conflicting change, the task is blocked, develop is untouched and the user is told.
+context:
+  scaffold_script: place-files.sh

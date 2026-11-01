@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: manages-backlog-without-starting-work
+expected_outcome: |
+  Three tasks are on the board in the requested priority order, the list is shown, and no implementation starts.
+context:
+  scaffold_script: place-files.sh
